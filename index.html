@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, intial-scale=1.0">
+        <title>Sikula Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+         integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" 
+         crossorigin="anonymous" />
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+
+         <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro" rel="stylesheet">
+         <link href= "https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+
+         <link rel="stylesheet" href="css/styles.css">
+
+    </head>
+    <body>
+        
+        <header>
+            <div class="logo">
+                <img src="img/..." alt=""> <!--Doplnit LOGO-->
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class ="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My work</a></li>
+                    <li class="nav__item"><a href="#footer" class="nav__link">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <button class="btn btn--top" title="Go to top" id="btn top"><i class="fas fa-angle-up"></i></button>
+        <!--Intro-->
+        <section class="intro" id="home">
+            
+                <h1 class="section__title section__title--intro">
+                 Hi, I'm <strong>Frantisek Sikula</strong>
+                </h1>
+            
+                
+                
+            <p class="section__subtitle section__subtitle--intro"><span class="typed"></span></p>
+            
+            
+            <img src="img/me1.jpg" alt="a picture of me" class="intro__img">
+            
+        </section>
+
+        <!--My services-->
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">Skills</h2>
+            <div class="services">
+                <div class="service">
+                    <div class="service--box">
+                        <div class="service--text">Web Apllications</div>
+                        <i class="fab fa-html5"></i><i class="fab fa-css3"></i><i class="fab fa-js"></i>
+                        <i class="fab fa-react"></i><i class="fab fa-node-js"></i><i class="fab fa-bootstrap"></i>
+                        <i class="fab fa-php"></i>
+                                    <p>HTML5, CSS, JavaScript, responsive design, Bootstrap, jQuery, React, PHP+MySQL</p>
+                        </div>
+                </div>
+
+                <div class="service">
+                    <div class="service--box">
+                        <div class="service--text">Desktop applications</div>
+                        <i class="fab fa-java"></i><i class="fab fa-microsoft"></i><i class="fab fa-python"></i>
+                        <p>
+                            Desktop applications: Java, C# and VB .Net, Python
+                            avanced technology: LINQ, XML, threads, client-server, delegates, WPF, Spring framework.
+                        </p>
+                        </div>
+                </div>
+
+                <div class="service">
+                    <div class="service--box">
+                        <div class="service--text"> Others</div>
+                            <i class="fab fa-github"></i><i class="fas fa-database"></i><i class="fab fa-android"></i>
+                                        <p>  Git ,Databases (Oracle, MS SQL server), programing mobile applications 
+                                            (C# - Xamarin, Java - Android Studio), Selenium + Specflow
+                                            
+                                        </p>
+                    </div>
+                </div>
+
+            </div>
+            
+        <a href="#work" class="btn">My work</a>
+        </section>
+
+        <!--About me-->
+        <section class="about-me" id="about">
+            <h2 class="section__title section__about">Who I am</h2>
+            <p class="section__subtitle section__subtitle--about">Junior developer based out of Frydek-Mistek</p>
+
+            <div class="about-me__body">
+                <p>My name is Frantisek Sikula and I'm junior developer based out of Frydek-Mistek.
+                     I just finished  OOP course at Technical University of Ostrava.
+                     I love coding, solving problems and learning new things. I would like to improve as developer as much as possible.</p>
+                <p> In my spare time I like sports. Namely football and running, in last years I tried some trail runinng races. 
+                    In winter I really enjoy ski-touring. Outside sports my hobbies include technology, computers, books. 
+
+
+                </p>
+            </div>
+
+            <img src="img/horska1.JPG" alt="Me on Mountain challenge" class="about-me__img">
+
+        <a href="src/CVen_Sikula.pdf" class="btn btn--download" download><i class="fa fa-download"></i> Download my CV</a>    
+        </section>
+
+        <!--Projects-->
+
+        <section class="my-work" id="work">
+            <h2 class="section__title">My work</h2>
+            <p class="section__subtitle">Selection of my projects</p>
+
+            <div class="portfolio">
+
+                 <!--Portfolio item-->
+                <div class="portfolio__item">
+                    <img src="img/portfolio1.jpg" alt="" class="portfolio__img">
+                    <div class="portfolio__item--overlay">
+                        <div class="portfolio__item--details" >
+                            <P>
+
+                                <h3>Snake game</h3>
+                                
+                                Classic snake game coded in C#.
+                                
+                            </P>
+                            <a href="https://github.com/Kooozel/Snake-Game" class="btn  btn--details">View Code</a>    
+                            
+                            
+                        </div>
+                    </div>  
+                    
+                </div>
+
+                 <!--Portfolio item-->
+                 <div class="portfolio__item">
+                    <img src="img/portfolio2.jpg" alt="" class="portfolio__img">
+                    <div class="portfolio__item--overlay">
+                        <div class="portfolio__item--details" >
+                            <P>
+
+                                <h3>Movies</h3>
+                                
+                                Movies search app, using API. Coded in React.
+                                
+                            </P>
+                            <a href="#" class="btn  btn--details">View Code</a>
+                        </div>
+                    </div>  
+                    
+                </div>
+
+                 
+            </div>
+        </section>
+
+        <!--Footer-->
+        <footer class="footer" id="footer">
+            <a href="mailto:sikulaf@gmail.com" class="footer-link">sikulaf@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item"><a class="social-list__link" href="https://github.com/Kooozel"><i class="fab fa-github"></i></a></li>
+                <li class="social-list__item"><a class="social-list__link" href="https://www.linkedin.com/in/frantisek-sikula/"><i class="fab fa-linkedin"></i></a></li>
+                <li class="social-list__item"><a class="social-list__link" href="https://wa.me/420739663988"><i class="fab fa-whatsapp"></i></a></li>
+            </ul>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
