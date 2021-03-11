@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded",() => {
     navToggle.addEventListener('click', () => {
         document.body.classList.toggle('nav-open');
 
-        console.log("click");
+        
     });
 
     navLinks.forEach(link => {
